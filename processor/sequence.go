@@ -1,6 +1,6 @@
 package processor
 
-import "github.com/gengzongjie/tokenizer"
+import "github.com/humf/tokenizer"
 
 type Sequence struct {
 	processors []tokenizer.PostProcessor

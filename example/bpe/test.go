@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/model/bpe"
-	"github.com/gengzongjie/tokenizer/pretokenizer"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/model/bpe"
+	"github.com/humf/tokenizer/pretokenizer"
 )
 
 func runTest() {

@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/model"
-	"github.com/gengzongjie/tokenizer/model/bpe"
-	"github.com/gengzongjie/tokenizer/model/unigram"
-	"github.com/gengzongjie/tokenizer/model/wordlevel"
-	"github.com/gengzongjie/tokenizer/model/wordpiece"
-	"github.com/gengzongjie/tokenizer/util"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/model"
+	"github.com/humf/tokenizer/model/bpe"
+	"github.com/humf/tokenizer/model/unigram"
+	"github.com/humf/tokenizer/model/wordlevel"
+	"github.com/humf/tokenizer/model/wordpiece"
+	"github.com/humf/tokenizer/util"
 )
 
 // This file provides functions to create tokenizer.Model from input data.

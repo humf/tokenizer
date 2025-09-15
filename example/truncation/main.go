@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/pretrained"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/pretrained"
 )
 
 func main() {

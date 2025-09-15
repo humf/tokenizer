@@ -4,12 +4,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/decoder"
-	"github.com/gengzongjie/tokenizer/model/bpe"
-	"github.com/gengzongjie/tokenizer/pretokenizer"
-	"github.com/gengzongjie/tokenizer/processor"
-	"github.com/gengzongjie/tokenizer/util"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/decoder"
+	"github.com/humf/tokenizer/model/bpe"
+	"github.com/humf/tokenizer/pretokenizer"
+	"github.com/humf/tokenizer/processor"
+	"github.com/humf/tokenizer/util"
 )
 
 // GPT2 loads GPT2 (small) tokenizer from vocab and merges files.

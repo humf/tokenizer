@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	slice "github.com/gengzongjie/tokenizer/util/slice"
+	slice "github.com/humf/tokenizer/util/slice"
 )
 
 func TestInsertStr(t *testing.T) {

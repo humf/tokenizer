@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/normalizer"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/normalizer"
 )
 
 type ModelMock struct {

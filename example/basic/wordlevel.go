@@ -5,11 +5,11 @@ import (
 	"log"
 	"unicode"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/decoder"
-	"github.com/gengzongjie/tokenizer/model/wordlevel"
-	"github.com/gengzongjie/tokenizer/normalizer"
-	// "github.com/gengzongjie/tokenizer/pretokenizer"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/decoder"
+	"github.com/humf/tokenizer/model/wordlevel"
+	"github.com/humf/tokenizer/normalizer"
+	// "github.com/humf/tokenizer/pretokenizer"
 )
 
 type customNormalizer struct{}

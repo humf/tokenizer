@@ -10,10 +10,10 @@ package pretrained
 import (
 	"fmt"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/pretokenizer"
-	"github.com/gengzongjie/tokenizer/processor"
-	"github.com/gengzongjie/tokenizer/util"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/pretokenizer"
+	"github.com/humf/tokenizer/processor"
+	"github.com/humf/tokenizer/util"
 )
 
 func CreatePostProcessor(config map[string]interface{}) (tokenizer.PostProcessor, error) {

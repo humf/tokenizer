@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gengzongjie/tokenizer/pretrained"
+	"github.com/humf/tokenizer/pretrained"
 )
 
 func main() {

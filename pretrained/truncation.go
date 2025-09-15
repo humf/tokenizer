@@ -1,8 +1,8 @@
 package pretrained
 
 import (
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/util"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/util"
 )
 
 func CreateTruncationParams(config map[string]interface{}) (*tokenizer.TruncationParams, error) {

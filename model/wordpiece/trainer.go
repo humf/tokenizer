@@ -1,8 +1,8 @@
 package wordpiece
 
 import (
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/model/bpe"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/model/bpe"
 )
 
 // WordPieceTrainerBuilder can be used to create a `WordPieceTrainer` with a custom

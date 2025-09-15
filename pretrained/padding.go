@@ -3,8 +3,8 @@ package pretrained
 import (
 	"reflect"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/util"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/util"
 )
 
 func CreatePaddingParams(config map[string]interface{}) (*tokenizer.PaddingParams, error) {

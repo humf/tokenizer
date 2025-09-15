@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/gengzongjie/tokenizer"
+	"github.com/humf/tokenizer"
 )
 
 // FromFile constructs a new Tokenizer from json data file (normally 'tokenizer.json')

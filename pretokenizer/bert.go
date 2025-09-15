@@ -4,8 +4,8 @@ import (
 	// "fmt"
 	// "unicode"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/normalizer"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/normalizer"
 )
 
 func isBertPunc(x rune) (retVal bool) {

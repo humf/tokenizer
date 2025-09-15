@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/gengzongjie/tokenizer"
+	"github.com/humf/tokenizer"
 )
 
 type ByteFallback struct {

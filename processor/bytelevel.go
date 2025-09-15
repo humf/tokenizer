@@ -1,8 +1,8 @@
 package processor
 
 import (
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/pretokenizer"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/pretokenizer"
 )
 
 type ByteLevelProcessing struct {

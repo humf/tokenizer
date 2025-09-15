@@ -6,13 +6,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/model/bpe"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/model/bpe"
 
-	// "github.com/gengzongjie/tokenizer/normalizer"
-	"github.com/gengzongjie/tokenizer/pretokenizer"
-	"github.com/gengzongjie/tokenizer/processor"
-	"github.com/gengzongjie/tokenizer/util"
+	// "github.com/humf/tokenizer/normalizer"
+	"github.com/humf/tokenizer/pretokenizer"
+	"github.com/humf/tokenizer/processor"
+	"github.com/humf/tokenizer/util"
 )
 
 func getByteLevelBPE() (retVal *tokenizer.Tokenizer) {

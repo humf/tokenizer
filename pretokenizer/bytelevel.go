@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/normalizer"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/normalizer"
 )
 
 // Regular epxression to split string to `word` token

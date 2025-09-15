@@ -1,4 +1,4 @@
-module github.com/gengzongjie/tokenizer
+module github.com/humf/tokenizer
 
 go 1.23.0
 
@@ -12,7 +12,4 @@ require (
 	golang.org/x/text v0.25.0
 )
 
-require (
-	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect
-	github.com/stretchr/testify v1.10.0 // indirect
-)
+require github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect

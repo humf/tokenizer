@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/gengzongjie/tokenizer/pretrained"
+	"github.com/humf/tokenizer/pretrained"
 )
 
 func ExampleTokenizer_Encode() {

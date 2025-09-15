@@ -17,8 +17,8 @@ import (
 	progressbar "github.com/schollz/progressbar/v2"
 	// "golang.org/x/sync/errgroup"
 
-	"github.com/gengzongjie/tokenizer/normalizer"
-	"github.com/gengzongjie/tokenizer/util"
+	"github.com/humf/tokenizer/normalizer"
+	"github.com/humf/tokenizer/util"
 )
 
 const (

@@ -4,13 +4,13 @@ import (
 	"log"
 	"os"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/decoder"
-	"github.com/gengzongjie/tokenizer/model/wordpiece"
-	"github.com/gengzongjie/tokenizer/normalizer"
-	"github.com/gengzongjie/tokenizer/pretokenizer"
-	"github.com/gengzongjie/tokenizer/processor"
-	"github.com/gengzongjie/tokenizer/util"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/decoder"
+	"github.com/humf/tokenizer/model/wordpiece"
+	"github.com/humf/tokenizer/normalizer"
+	"github.com/humf/tokenizer/pretokenizer"
+	"github.com/humf/tokenizer/processor"
+	"github.com/humf/tokenizer/util"
 )
 
 // BertBaseUncase loads pretrained BERT tokenizer.

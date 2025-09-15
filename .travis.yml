@@ -14,8 +14,8 @@ dist: bionic
 
 script:
   - go get -u ./...
-  - go test -v github.com/gengzongjie/tokenizer/normalizer
-  - go test -v github.com/gengzongjie/tokenizer/model/bpe
-  - go test -v github.com/gengzongjie/tokenizer/model/wordpiece
-  - go test -v github.com/gengzongjie/tokenizer/pretokenizer
-  - go test -v github.com/gengzongjie/tokenizer
+  - go test -v github.com/humf/tokenizer/normalizer
+  - go test -v github.com/humf/tokenizer/model/bpe
+  - go test -v github.com/humf/tokenizer/model/wordpiece
+  - go test -v github.com/humf/tokenizer/pretokenizer
+  - go test -v github.com/humf/tokenizer

@@ -15,11 +15,11 @@ package pretrained
 import (
 	"fmt"
 
-	"github.com/gengzongjie/tokenizer"
-	"github.com/gengzongjie/tokenizer/decoder"
-	"github.com/gengzongjie/tokenizer/normalizer"
-	"github.com/gengzongjie/tokenizer/pretokenizer"
-	"github.com/gengzongjie/tokenizer/util"
+	"github.com/humf/tokenizer"
+	"github.com/humf/tokenizer/decoder"
+	"github.com/humf/tokenizer/normalizer"
+	"github.com/humf/tokenizer/pretokenizer"
+	"github.com/humf/tokenizer/util"
 )
 
 func CreateDecoder(config map[string]interface{}) (tokenizer.Decoder, error) {

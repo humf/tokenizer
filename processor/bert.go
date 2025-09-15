@@ -1,7 +1,7 @@
 package processor
 
 import (
-	"github.com/gengzongjie/tokenizer"
+	"github.com/humf/tokenizer"
 )
 
 type PostToken struct {
