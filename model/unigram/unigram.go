@@ -7,6 +7,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 	"unicode/utf8"
 
 	"github.com/humf/tokenizer"
