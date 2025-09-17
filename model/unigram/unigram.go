@@ -242,21 +242,21 @@ func (u *Unigram) Save(dir string, prefixOpt ...string) error {
 // Tokenize tokenizes the given sequence into multiple tokens
 func (u *Unigram) Tokenize(sequence string) ([]tokenizer.Token, error) {
 	// Check cache first
-	u.cacheMutex.RLock()
-	tokens, ok := u.cache[sequence]
-	u.cacheMutex.RUnlock()
+	//u.cacheMutex.RLock()
+	//tokens, ok := u.cache[sequence]
+	//u.cacheMutex.RUnlock()
 
-	if ok {
-		return u.tokensToTokenizer(tokens, sequence), nil
-	}
+	//if ok {
+	//	return u.tokensToTokenizer(tokens, sequence), nil
+	//}
 
 	// If byte fallback is enabled, always use it
 	if u.bytesFallback {
 		tokens := u.tokenizeWithByteFallback(sequence)
 
-		u.cacheMutex.Lock()
-		u.cache[sequence] = tokens
-		u.cacheMutex.Unlock()
+		//u.cacheMutex.Lock()
+		//u.cache[sequence] = tokens
+		//u.cacheMutex.Unlock()
 
 		return u.tokensToTokenizer(tokens, sequence), nil
 	}
@@ -267,9 +267,9 @@ func (u *Unigram) Tokenize(sequence string) ([]tokenizer.Token, error) {
 		return nil, err
 	}
 
-	u.cacheMutex.Lock()
-	u.cache[sequence] = tokens
-	u.cacheMutex.Unlock()
+	//u.cacheMutex.Lock()
+	//u.cache[sequence] = tokens
+	//u.cacheMutex.Unlock()
 
 	return u.tokensToTokenizer(tokens, sequence), nil
 }
